@@ -1,0 +1,117 @@
+html {
+    background: radial-gradient(circle, #fff, #ccc);
+    height: 100%;
+}
+
+#header {
+    position: absolute;
+    text-align: center;
+    color: #4435af;
+    left: 270px;
+}
+
+#container {
+    height: 600px;
+    width: 780px;
+    background-color: #9DD2EA;
+    margin: 10px auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+#score {
+    background-color: #F1FF92;
+    height: 30px;
+    width: 75px;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 18px;
+    color: #888E5F;
+    position: absolute;
+    left: 690px;
+    top: 18px;
+    box-shadow: 0px 4px 0px #9da853;
+
+}
+
+#game {
+    width: 650px;
+    height: 400px;
+    background-color: #FFFFFF;
+    position: absolute;
+    margin: 70px auto 10px auto;
+    left: 65px;
+    box-shadow: 0px 4px 0px #535AA8;
+    overflow: hidden;
+}
+
+#catchFruits {
+    height: 30px;
+    width: 450px;
+    padding-top: 15px;
+    text-align: center;
+    background-color: #B481D9;
+    box-shadow: 0px 4px 0px #8153A8;
+    position: absolute;
+    left: 165px;
+    top: 480px;
+    font-size: 20px;
+}
+
+#start {
+    height: 25px;
+    width: 95px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 11px;
+    box-shadow: 0px 4px 0px #8153A8;
+    position: absolute;
+    left: 335px;
+    top: 540px;
+}
+
+#start:hover {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+#start:active {
+    box-shadow: 0px 0px 0px #8153A8;
+    top: 544px;
+}
+
+#gameOver {
+    height: 260px;
+    width: 450px;
+    position: absolute;
+    font-size: 45px;
+    text-align: center;
+    font-family: cursive;
+    background: linear-gradient(#f3ca6b, #f3706c);
+    left: 160px;
+    top: 140px;
+    text-transform: uppercase;
+    display: none;
+}
+
+#life {
+    position: absolute;
+    background-color: #F1FF92;
+    height: 30px;
+    width: 100px;
+    left: 20px;
+    top: 30px;
+    display: none;
+}
+
+.heart {
+    width: 16px;
+    height: 16px;
+    margin: 8px 5px 10px 10px;
+}
+
+#fruit1 {
+    display: none;
+    position: absolute;
+}
